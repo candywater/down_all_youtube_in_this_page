@@ -1,0 +1,29 @@
+{
+  "name": "down_all_youtube_in_this_page",
+  "version": "0.0.1",
+  "description": "download all youtube videos in this page",
+  "main": "index.js",
+  "scripts": {
+    "test": "./index.js",
+    "run": "./index.js"
+  },
+  "bin" : {
+    "down_all_youtube_in_this_page" : "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/candywater/down_all_youtube_in_this_page.git"
+  },
+  "keywords": [
+    "youtube"
+  ],
+  "author": "candywater",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/candywater/down_all_youtube_in_this_page/issues"
+  },
+  "homepage": "https://github.com/candywater/down_all_youtube_in_this_page#readme",
+  "dependencies": {
+    "jsdom": "^13.0.0"
+  }
+}
