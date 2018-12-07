@@ -44,6 +44,7 @@ function readFromUrl(url){
 function downVideos(){
   const dom = new JSDOM(data);
   let videos = dom.window.document.querySelectorAll("a");
+  let errlist = [];
   for(let video of videos){
     if(video.id != "thumbnail")
       continue;
@@ -53,7 +54,14 @@ function downVideos(){
       //https://nodejs.org/api/child_process.html#child_process_options_stdio
       execSync("you-get " + "'youtube.com" + video.href + "'", {stdio:[0,1,2]});
     }
-    catch(e) {}
+    catch(e) {
+      errlist.push(e);
+    }
   }
+  if(errlist)
+    console.log("there are some errors.");
+  errlist.forEach((err) =>{
+    console.log(err);
+  });
 
 }

@@ -11,13 +11,15 @@ this is a test version.
 # how to install ? 
 
   1. install you-get  
-  ```sudo pip3 install you-get```  
-  2. install down_all_youtube_in_this_page  
 
   ```
-  down the youtube page as youtube.html
-  git clone https://github.com/candywater/down_all_youtube_in_this_page.git
-  sudo npm install -g down_all_youtube_in_this_page
+  sudo pip3 install you-get
+  ```  
+
+  2. install down_all_youtube_in_this_page  
+  ```
+  git clone https://github.com/candywater/down_all_youtube_in_this_page.git  
+  sudo npm install -g down_all_youtube_in_this_page  
   ```
 # how to use ?
 
@@ -27,5 +29,6 @@ this is a test version.
     press F12 in firefox, at whatever channel you want to
   2. copy html element by right click
   3. paste html element to a file
-  4. run ```down_all_youtube_in_this_page <youfiel>```
+  4. run 
+    ```down_all_youtube_in_this_page <yourfile>```
   5. wait

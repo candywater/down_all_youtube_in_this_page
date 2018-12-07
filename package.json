@@ -4,8 +4,8 @@
   "description": "download all youtube videos in this page",
   "main": "index.js",
   "scripts": {
-    "test": "./index.js",
-    "run": "./index.js"
+    "test": "./index.js test",
+    "start": "./index.js"
   },
   "bin" : {
     "down_all_youtube_in_this_page" : "index.js"
