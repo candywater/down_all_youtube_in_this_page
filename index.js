@@ -58,8 +58,8 @@ function downVideos(){
       errlist.push(e);
     }
   }
-  if(errlist)
-    console.log("there are some errors.");
+  if(errlist.length > 0)
+    console.log("==there are some errors.==");
   errlist.forEach((err) =>{
     console.log(err);
   });
